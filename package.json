@@ -1,0 +1,19 @@
+{
+  "name": "webdriverio5-browerstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/specs/example.e2e.js -t 300000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@applitools/eyes-webdriverio": "5.32.12",
+    "mocha": "6.2.3",
+    "webdriverio": "^5.23.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4"
+  }
+}
